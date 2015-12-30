@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/drawerLayout"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/drawerIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/splash"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drawerItemName"
+        android:text="@string/action_settings"
+        android:textSize="14sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+</LinearLayout>

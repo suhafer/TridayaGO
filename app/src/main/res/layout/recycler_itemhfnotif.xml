@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="3dp"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardElevation="0dp"
+    card_view:cardBackgroundColor="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/itemPicture"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/read_mark"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/itemTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/green"
+                    style="@style/Base.TextAppearance.AppCompat.Body2"/>
+
+                <TextView
+                    android:id="@+id/itemClock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/silver"
+                    android:gravity="right"
+                    style="@style/Base.TextAppearance.AppCompat.Body2"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/itemDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/silver"
+                android:text="@string/tda_date"/>
+
+            <TextView
+                android:id="@+id/itemNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/silver"
+                android:lines="2"
+                android:text="@string/example"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/itemMark"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/icon_arrowkanan"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

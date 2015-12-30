@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Tridaya GO</string>
+
+    <string name="hello_world"></string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_">Splash_Activity</string>
+
+    <!-- Login Part -->
+    <string name="hint">Masukkan Username dan Password pribadi anda untuk dapat bisa mengakses fitur berikutnya</string>
+    <string name="hint_username">email or username</string>
+    <string name="hint_password">password</string>
+    <string name="login">Log In</string>
+    <string name="forget">Forgot your password?</string>
+    <string name="title_activity_checkin_">Checkin_Activity</string>
+
+    <!-- CheckIn Part -->
+    <string name="checkin">Check In</string>
+    <string name="notif1">Tridaya GO requires GPS connection, please Turn On your GPS</string>
+    <string name="notifyes">Ok</string>
+    <string name="notifno">Cancel</string>
+    <string name="shift">Shift 1</string>
+
+    <!-- Home Part -->
+    <string name="title_activity_home">Tridaya Go</string>
+    <string name="firsttab">Task</string>
+    <string name="secondtab">Report</string>
+    <string name="thirdtab">Notification</string>
+    <string name="fourthtab">Request</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Type message title</string>
+    <string name="check">Check in</string>
+
+    <!-- Task Part -->
+    <string name="title_activity_task">Tridaya Go</string>
+    <string name="title_section1">Daily Task</string>
+    <string name="title_section2">Special Task</string>
+
+    <string name="title_activity_tes">Tes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <!-- Task Report Part -->
+    <string name="title_activity_task_daily">Daily Task</string>
+    <string name="tdp_notes">Note</string>
+    <string name="tdp_note">Type here</string>
+    <string name="tdp_send">Send</string>
+    <string name="tdp_checkin">Check In :</string>
+    <string name="tdp_checkins">Check In : Minggu, 25 November 2015 23:59 WITA</string>
+
+    <!-- Task Detail Part -->
+    <string name="title_activity_detail_task">Detail Task</string>
+    <string name="report">Report</string>
+    <string name="tda_date">13 November 2015</string>
+
+    <string name="example">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting.</string>
+    <string name="title_activity_search_message">SearchMessageActivity</string>
+
+    <!-- Notif Detail Part -->
+    <string name="title_activity_notif__detail_">Message</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <!-- Report Part -->
+    <string name="location">Lokasi : </string>
+
+</resources>
